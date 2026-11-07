@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "b6f2197c-f53b-4fb9-9c26-8869239e822f",
+  "path": "office-productivity",
+  "path_key": "office-productivity",
+  "enabled": true,
+  "tags": [
+    "office",
+    "workflow"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/sickn33/agentic-awesome-skills/tree/main/office-productivity",
+    "subpath": "office-productivity",
+    "branch": "main"
+  }
+}

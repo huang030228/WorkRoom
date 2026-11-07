@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "031ca958-48fa-41f2-ad16-8a6a5b15765b",
+  "path": "principle-guard-the-context-window",
+  "path_key": "principle-guard-the-context-window",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "cursor/plugins/principle-guard-the-context-window",
+    "subpath": "harness\\pstack\\claude-code\\skills\\principle-guard-the-context-window",
+    "branch": null
+  }
+}

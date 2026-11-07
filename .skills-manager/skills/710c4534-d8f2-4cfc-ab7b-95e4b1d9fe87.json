@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "710c4534-d8f2-4cfc-ab7b-95e4b1d9fe87",
+  "path": "llm-caching",
+  "path_key": "llm-caching",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "bagelhole/devops-security-agent-skills/llm-caching",
+    "subpath": "devops\\ai\\llm-caching",
+    "branch": null
+  }
+}

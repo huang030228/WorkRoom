@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3f266b08-0d43-4c2f-9571-e76097de51b5",
+  "path": "cost-aware-llm-pipeline",
+  "path_key": "cost-aware-llm-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "affaan-m/ecc/cost-aware-llm-pipeline",
+    "subpath": "skills\\cost-aware-llm-pipeline",
+    "branch": null
+  }
+}

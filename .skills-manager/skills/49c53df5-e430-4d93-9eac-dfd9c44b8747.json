@@ -4,7 +4,10 @@
   "path": "skill-creator",
   "path_key": "skill-creator",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "agent-dev",
+    "skill-eng"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "anthropics/skills/skill-creator",

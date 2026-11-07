@@ -4,7 +4,10 @@
   "path": "cost-aware-llm-pipeline",
   "path_key": "cost-aware-llm-pipeline",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "cost",
+    "pipeline"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "affaan-m/ecc/cost-aware-llm-pipeline",

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "4b06b410-cc46-4e0c-bd44-5a9036dec3fa",
+  "path": "email-drafter",
+  "path_key": "email-drafter",
+  "enabled": true,
+  "tags": [
+    "communication",
+    "office"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/claude-office-skills/skills",
+    "subpath": "email-drafter",
+    "branch": null
+  }
+}

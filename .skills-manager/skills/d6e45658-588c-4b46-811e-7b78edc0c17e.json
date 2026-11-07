@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "d6e45658-588c-4b46-811e-7b78edc0c17e",
+  "path": "i-have-adhd",
+  "path_key": "i-have-adhd",
+  "enabled": true,
+  "tags": [
+    "cost",
+    "output"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/ayghri/i-have-adhd",
+    "subpath": "skills/i-have-adhd",
+    "branch": null
+  }
+}

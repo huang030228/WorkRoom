@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "62e76722-9eb0-47a5-944f-93b63b442dca",
+  "path": "last30days",
+  "path_key": "last30days",
+  "enabled": true,
+  "tags": [
+    "office",
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mvanhorn/last30days-skill",
+    "subpath": "skills/last30days",
+    "branch": null
+  }
+}

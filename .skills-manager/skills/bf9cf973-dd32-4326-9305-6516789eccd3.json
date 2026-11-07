@@ -4,7 +4,10 @@
   "path": "using-superpowers",
   "path_key": "using-superpowers",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "agent-dev",
+    "methodology"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/using-superpowers",

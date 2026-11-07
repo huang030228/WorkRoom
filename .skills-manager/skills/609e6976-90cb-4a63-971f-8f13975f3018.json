@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "609e6976-90cb-4a63-971f-8f13975f3018",
+  "path": "humanizer",
+  "path_key": "humanizer",
+  "enabled": true,
+  "tags": [
+    "cost",
+    "output"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/blader/humanizer",
+    "subpath": null,
+    "branch": null
+  }
+}

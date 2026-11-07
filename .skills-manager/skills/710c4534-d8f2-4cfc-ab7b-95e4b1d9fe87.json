@@ -4,7 +4,10 @@
   "path": "llm-caching",
   "path_key": "llm-caching",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "caching",
+    "cost"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "bagelhole/devops-security-agent-skills/llm-caching",

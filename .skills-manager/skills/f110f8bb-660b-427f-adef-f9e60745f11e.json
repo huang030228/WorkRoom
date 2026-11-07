@@ -4,7 +4,10 @@
   "path": "systematic-debugging",
   "path_key": "systematic-debugging",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "cost",
+    "workflow"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/systematic-debugging",

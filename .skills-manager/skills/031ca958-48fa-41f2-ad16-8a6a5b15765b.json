@@ -4,7 +4,10 @@
   "path": "principle-guard-the-context-window",
   "path_key": "principle-guard-the-context-window",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "context",
+    "cost"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "cursor/plugins/principle-guard-the-context-window",

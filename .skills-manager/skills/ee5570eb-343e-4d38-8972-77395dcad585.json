@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "ee5570eb-343e-4d38-8972-77395dcad585",
+  "path": "deep-agents-memory",
+  "path_key": "deep-agents-memory",
+  "enabled": true,
+  "tags": [
+    "agent-dev",
+    "memory"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "langchain-ai/langchain-skills/deep-agents-memory",
+    "subpath": "config\\skills\\deep-agents-memory",
+    "branch": null
+  }
+}

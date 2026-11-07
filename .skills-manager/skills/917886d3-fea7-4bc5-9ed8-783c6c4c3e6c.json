@@ -4,7 +4,10 @@
   "path": "code-review",
   "path_key": "code-review",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "agent-dev",
+    "quality"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "mattpocock/skills/code-review",

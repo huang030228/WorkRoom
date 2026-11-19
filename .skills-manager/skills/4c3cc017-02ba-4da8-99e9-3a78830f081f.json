@@ -4,7 +4,9 @@
   "path": "idea-evaluator",
   "path_key": "idea-evaluator",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/hkustdial/supervisor-skills",

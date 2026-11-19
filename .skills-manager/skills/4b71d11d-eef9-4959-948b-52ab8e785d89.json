@@ -4,7 +4,9 @@
   "path": "research-paper-writing",
   "path_key": "research-paper-writing",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/master-cai/research-paper-writing-skills",

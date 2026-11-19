@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3f00c44b-352f-4b9b-89ee-48b807779d20",
+  "path": "openalex",
+  "path_key": "openalex",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "subpath": "skills/openalex",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b21761e6-76fb-4157-b98b-7ff04c4602ee",
+  "path": "idea-discovery",
+  "path_key": "idea-discovery",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "subpath": "skills/idea-discovery",
+    "branch": null
+  }
+}

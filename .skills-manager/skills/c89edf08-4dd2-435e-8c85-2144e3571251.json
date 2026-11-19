@@ -4,7 +4,9 @@
   "path": "tech-paper-template",
   "path_key": "tech-paper-template",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/hkustdial/supervisor-skills",

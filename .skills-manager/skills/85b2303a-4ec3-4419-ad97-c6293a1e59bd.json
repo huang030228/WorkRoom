@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "85b2303a-4ec3-4419-ad97-c6293a1e59bd",
+  "path": "monitor-experiment",
+  "path_key": "monitor-experiment",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "subpath": "skills/monitor-experiment",
+    "branch": null
+  }
+}

@@ -4,7 +4,9 @@
   "path": "academic-paper",
   "path_key": "academic-paper",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/imbad0202/academic-research-skills",

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a2a1583c-0af3-46f8-b0aa-eb26559710bb",
+  "path": "reddit-automation",
+  "path_key": "reddit-automation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "flowkit-labs/skills/reddit-automation",
+    "subpath": "reddit-automation",
+    "branch": null
+  }
+}

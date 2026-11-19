@@ -4,7 +4,9 @@
   "path": "vibe-research-workflow",
   "path_key": "vibe-research-workflow",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/hkustdial/supervisor-skills",

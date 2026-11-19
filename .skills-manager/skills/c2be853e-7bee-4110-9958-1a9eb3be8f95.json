@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c2be853e-7bee-4110-9958-1a9eb3be8f95",
+  "path": "deepxiv",
+  "path_key": "deepxiv",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "subpath": "skills/deepxiv",
+    "branch": null
+  }
+}

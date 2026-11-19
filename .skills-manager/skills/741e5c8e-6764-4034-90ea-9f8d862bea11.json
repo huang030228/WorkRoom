@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "741e5c8e-6764-4034-90ea-9f8d862bea11",
+  "path": "overleaf-sync",
+  "path_key": "overleaf-sync",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "subpath": "skills/overleaf-sync",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b1a0ed20-95b6-4e7a-9284-c2472eb324cf",
+  "path": "deep-research-report",
+  "path_key": "deep-research-report",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/199-biotechnologies/claude-deep-research-skill",
+    "subpath": null,
+    "branch": null
+  }
+}

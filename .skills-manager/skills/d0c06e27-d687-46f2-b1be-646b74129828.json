@@ -4,7 +4,9 @@
   "path": "drawio-reconstruction",
   "path_key": "drawio-reconstruction",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/hkustdial/supervisor-skills",

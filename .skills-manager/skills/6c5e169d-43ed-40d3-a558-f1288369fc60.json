@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6c5e169d-43ed-40d3-a558-f1288369fc60",
+  "path": "analyze-results",
+  "path_key": "analyze-results",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "subpath": "skills/analyze-results",
+    "branch": null
+  }
+}

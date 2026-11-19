@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8db56e5b-2bae-49da-b03e-aba41eef8bb2",
+  "path": "novelty-check",
+  "path_key": "novelty-check",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "subpath": "skills/novelty-check",
+    "branch": null
+  }
+}

@@ -4,7 +4,9 @@
   "path": "intro-drafter",
   "path_key": "intro-drafter",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/hkustdial/supervisor-skills",

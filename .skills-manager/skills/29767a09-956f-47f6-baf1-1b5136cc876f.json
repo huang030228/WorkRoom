@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "29767a09-956f-47f6-baf1-1b5136cc876f",
+  "path": "auto-paper-improvement-loop",
+  "path_key": "auto-paper-improvement-loop",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "subpath": "skills/auto-paper-improvement-loop",
+    "branch": null
+  }
+}

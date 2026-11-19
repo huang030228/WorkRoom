@@ -4,7 +4,9 @@
   "path": "pre-submission-reviewer",
   "path_key": "pre-submission-reviewer",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/hkustdial/supervisor-skills",

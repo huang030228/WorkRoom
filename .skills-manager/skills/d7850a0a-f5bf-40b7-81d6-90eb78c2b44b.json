@@ -4,7 +4,9 @@
   "path": "paper-polish",
   "path_key": "paper-polish",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/hkustdial/supervisor-skills",

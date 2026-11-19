@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "506d5e66-01d5-46d5-b8f3-35a4fbf23a0a",
+  "path": "hindsight-coding-agent",
+  "path_key": "hindsight-coding-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

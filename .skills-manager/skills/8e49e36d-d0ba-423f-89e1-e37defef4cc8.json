@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8e49e36d-d0ba-423f-89e1-e37defef4cc8",
+  "path": "experiment-plan",
+  "path_key": "experiment-plan",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "subpath": "skills/experiment-plan",
+    "branch": null
+  }
+}

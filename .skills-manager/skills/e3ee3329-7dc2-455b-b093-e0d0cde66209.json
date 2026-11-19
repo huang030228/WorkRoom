@@ -4,7 +4,9 @@
   "path": "academic-figure-generator",
   "path_key": "academic-figure-generator",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/ligphidonk/academic-figure-generator",

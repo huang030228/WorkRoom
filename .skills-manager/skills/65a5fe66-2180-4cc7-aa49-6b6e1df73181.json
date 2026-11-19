@@ -4,7 +4,9 @@
   "path": "deep-research",
   "path_key": "deep-research",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "research"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/hkustdial/supervisor-skills",

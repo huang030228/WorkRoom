@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "143ca0dd-b28c-4103-a382-006fbe20d05d",
+  "path": "paper-writer",
+  "path_key": "paper-writer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/paper-writer",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c89edf08-4dd2-435e-8c85-2144e3571251",
+  "path": "tech-paper-template",
+  "path_key": "tech-paper-template",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/tech-paper-template",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4c3cc017-02ba-4da8-99e9-3a78830f081f",
+  "path": "idea-evaluator",
+  "path_key": "idea-evaluator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/idea-evaluator",
+    "branch": null
+  }
+}

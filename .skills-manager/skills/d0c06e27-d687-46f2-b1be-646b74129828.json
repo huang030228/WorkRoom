@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d0c06e27-d687-46f2-b1be-646b74129828",
+  "path": "drawio-reconstruction",
+  "path_key": "drawio-reconstruction",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/drawio-reconstruction",
+    "branch": null
+  }
+}

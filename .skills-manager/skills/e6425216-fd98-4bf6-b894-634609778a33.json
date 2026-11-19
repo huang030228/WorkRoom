@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e6425216-fd98-4bf6-b894-634609778a33",
+  "path": "vibe-research-workflow",
+  "path_key": "vibe-research-workflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/vibe-research-workflow",
+    "branch": null
+  }
+}

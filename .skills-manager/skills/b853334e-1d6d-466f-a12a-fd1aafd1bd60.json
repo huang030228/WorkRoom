@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b853334e-1d6d-466f-a12a-fd1aafd1bd60",
+  "path": "intro-drafter",
+  "path_key": "intro-drafter",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/intro-drafter",
+    "branch": null
+  }
+}

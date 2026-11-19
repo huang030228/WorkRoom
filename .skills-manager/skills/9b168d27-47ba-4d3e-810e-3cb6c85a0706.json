@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9b168d27-47ba-4d3e-810e-3cb6c85a0706",
+  "path": "figure-designer",
+  "path_key": "figure-designer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/figure-designer",
+    "branch": null
+  }
+}

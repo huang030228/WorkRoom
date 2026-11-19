@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1f614dc6-2b23-4d4b-a545-134d7daebf8e",
+  "path": "benchmark-paper-template",
+  "path_key": "benchmark-paper-template",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/benchmark-paper-template",
+    "branch": null
+  }
+}

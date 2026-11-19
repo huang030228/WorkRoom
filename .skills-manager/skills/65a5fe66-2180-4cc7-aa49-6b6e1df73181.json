@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "65a5fe66-2180-4cc7-aa49-6b6e1df73181",
+  "path": "deep-research",
+  "path_key": "deep-research",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/deep-research",
+    "branch": null
+  }
+}

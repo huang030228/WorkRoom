@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d7850a0a-f5bf-40b7-81d6-90eb78c2b44b",
+  "path": "paper-polish",
+  "path_key": "paper-polish",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/paper-polish",
+    "branch": null
+  }
+}

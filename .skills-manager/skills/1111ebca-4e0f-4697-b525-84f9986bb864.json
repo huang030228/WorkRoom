@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1111ebca-4e0f-4697-b525-84f9986bb864",
+  "path": "pre-submission-reviewer",
+  "path_key": "pre-submission-reviewer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/hkustdial/supervisor-skills",
+    "subpath": "skills/pre-submission-reviewer",
+    "branch": null
+  }
+}

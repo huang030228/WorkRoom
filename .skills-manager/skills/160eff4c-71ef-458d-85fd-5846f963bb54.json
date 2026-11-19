@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "160eff4c-71ef-458d-85fd-5846f963bb54",
+  "path": "scholar-evaluation",
+  "path_key": "scholar-evaluation",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "subpath": "skills/scholar-evaluation",
+    "branch": null
+  }
+}

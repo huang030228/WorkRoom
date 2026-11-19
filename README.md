@@ -2,7 +2,7 @@
 
 > 一个跨 agent 共享的 AI 技能库备份仓库。
 >
-> 收录 **27 个** 精选 Agent Skills，按「智能体开发」与「办公效率」两组预设备份，一键同步到 Claude Code、Codex 等 56 种编码代理。
+> 收录 **75 个** 精选 Agent Skills，按「智能体开发」「办公效率」「科研」三组预设备份，一键同步到 Claude Code、Codex 等 56 种编码代理。
 
 ---
 
@@ -37,7 +37,10 @@ WorkRoom/
 ├── xlsx/
 ├── pptx/
 ├── pdf/
-└── ...                       # 共 27 个技能目录
+├── paper-spine/              #   科研类技能同样一层目录
+├── nature-figure/
+├── literature-review/
+└── ...                       # 共 75 个技能目录
 ```
 
 **两层结构，缺一不可：**
@@ -93,6 +96,83 @@ WorkRoom/
 | `principle-guard-the-context-window` | **上下文窗口守卫，防越界** | [cursor/plugins](https://github.com/cursor/plugins) |
 | `cost-aware-llm-pipeline` | **成本感知的模型调用链** | [affaan-m/ecc](https://github.com/affaan-m/ecc) |
 | `llm-caching` | **提示词缓存复用，降本** | [devops-security-agent-skills](https://github.com/bagelhole/devops-security-agent-skills) |
+
+### 三、科研（48 个）
+
+按科研全流程组织：**全自动科研 Agent → 选题创新 → 科研绘图 → 顶刊写作排版 → 防幻觉可信研究**。
+
+#### 3.1 全流程自动科研 Agent
+
+| 技能 | 用途 | 来源 |
+|---|---|---|
+| `academic-paper` | 12-agent 论文流水线，11 种模式（全流程/大纲/修订/摘要/审稿回应/引文核查） | [imbad0202/academic-research-skills](https://github.com/imbad0202/academic-research-skills) |
+| `paper-spine` | 研究→写作→评审→交付一体化，带证据链与同任务修订 | [WUBING2023/PaperSpine](https://github.com/WUBING2023/PaperSpine) |
+| `autoresearch` | 自动跑研究循环，无人值守迭代 | [orchestra-research/ai-research-skills](https://github.com/orchestra-research/ai-research-skills) |
+| `experiment-plan` | 实验方案设计 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `experiment-queue` | 实验排队执行，可挂机 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `monitor-experiment` | 实验过程监控与异常捕获 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `analyze-results` | 结果分析与结论提炼 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `auto-review-loop` | 自动评审循环，反复打磨 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `auto-paper-improvement-loop` | 论文自动迭代改进 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `deep-research` | 综述级文献调查，多视角检索 + 引文核实 + MECE 分类 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `vibe-research-workflow` | 轻量科研工作流编排 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `research-paper-writing` | 论文写作全流程 | [master-cai/research-paper-writing-skills](https://github.com/master-cai/research-paper-writing-skills) |
+| `literature-review` | 文献综述：检索策略 + 综合框架 + PubMed/arXiv 脚本 | [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) |
+| `scientific-writing` | 科学写作规范与结构 | [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) |
+| `hypothesis-generation` | 假设生成与可检验化 | [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) |
+| `research-grants` | 基金申请书撰写 | [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) |
+| `scientific-critical-thinking` | 批判性审视研究设计 | [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) |
+
+#### 3.2 选题与创新点
+
+| 技能 | 用途 | 来源 |
+|---|---|---|
+| `idea-evaluator` | 选题价值评估，从顶会论文反推 motivation | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `idea-discovery` | 研究点发现与文献空白识别 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `novelty-check` | 创新性查重，判断是否已被做过 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `kill-argument` | 反方视角攻击论点，提前暴露漏洞 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `scholar-evaluation` | 学者/成果影响力评估 | [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) |
+| `benchmark-paper-template` | 顶会 benchmark 论文结构模板 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `tech-paper-template` | 技术论文结构模板 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+
+#### 3.3 科研绘图
+
+| 技能 | 用途 | 来源 |
+|---|---|---|
+| `academic-figure-generator` | 顶会级配图提示词（框架图/架构图/流程图/对比图） | [ligphidonk/academic-figure-generator](https://github.com/ligphidonk/academic-figure-generator) |
+| `nature-figure` | Nature 规范图表：配色、字号、多面板排版 | [yuan1z0825/nature-skills](https://github.com/yuan1z0825/nature-skills) |
+| `figure-designer` | 图件设计与版式 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `drawio-reconstruction` | 从论文图重建 draw.io 可编辑源文件 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+
+#### 3.4 顶刊写作排版
+
+| 技能 | 用途 | 来源 |
+|---|---|---|
+| `nature-writing` | Nature 风格行文与结构 | [yuan1z0825/nature-skills](https://github.com/yuan1z0825/nature-skills) |
+| `nature-polishing` | 语言润色对齐期刊规范 | [yuan1z0825/nature-skills](https://github.com/yuan1z0825/nature-skills) |
+| `nature-citation` | 引文格式与规范 | [yuan1z0825/nature-skills](https://github.com/yuan1z0825/nature-skills) |
+| `nature-reviewer` | 审稿意见模拟 | [yuan1z0825/nature-skills](https://github.com/yuan1z0825/nature-skills) |
+| `nature-ref-verifier` | 参考文献真实性核验 | [yuan1z0825/nature-skills](https://github.com/yuan1z0825/nature-skills) |
+| `nature-reader` | 期刊论文精读拆解 | [yuan1z0825/nature-skills](https://github.com/yuan1z0825/nature-skills) |
+| `nature-academic-search` | 学术检索策略 | [yuan1z0825/nature-skills](https://github.com/yuan1z0825/nature-skills) |
+| `paper-writer` | 分章节写作 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `intro-drafter` | Introduction 起草 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `paper-polish` | 成稿打磨 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `overleaf-sync` | 与 Overleaf 工程双向同步 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+
+#### 3.5 防幻觉与可信研究
+
+| 技能 | 用途 | 来源 |
+|---|---|---|
+| `deep-research-report` | 8 阶段深度研究：多引擎检索 + **信源可信度评分** + 引用验证 + 幻觉检测，产出 MD/HTML/PDF 报告 | [199-biotechnologies/claude-deep-research-skill](https://github.com/199-biotechnologies/claude-deep-research-skill) |
+| `citation-management` | 引文管理与格式转换 | [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) |
+| `citation-audit` | 引文审计，逐条核对是否支撑论点 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `peer-review` | 同行评审模拟与质量把关 | [k-dense-ai/scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills) |
+| `pre-submission-reviewer` | 投稿前自审，按顶会标准挑错 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `rebuttal-guidance` | Rebuttal 撰写策略 | [hkustdial/supervisor-skills](https://github.com/hkustdial/supervisor-skills) |
+| `arxiv` | arXiv 检索与论文获取 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `deepxiv` | DeepXiv 文献深检索 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
+| `openalex` | OpenAlex 开放学术图谱查询 | [wanshuiyin/ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) |
 
 ---
 

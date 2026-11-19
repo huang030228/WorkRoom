@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e61e75ca-3326-432c-872d-29ebff1f7f6d",
+  "path": "scientific-writing",
+  "path_key": "scientific-writing",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "subpath": "skills/scientific-writing",
+    "branch": null
+  }
+}

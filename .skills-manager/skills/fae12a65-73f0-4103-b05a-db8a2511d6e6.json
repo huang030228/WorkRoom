@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fae12a65-73f0-4103-b05a-db8a2511d6e6",
+  "path": "research-grants",
+  "path_key": "research-grants",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "subpath": "skills/research-grants",
+    "branch": null
+  }
+}

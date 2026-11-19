@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6a29dbf4-30be-480a-b469-346686fecc38",
+  "path": "citation-management",
+  "path_key": "citation-management",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "subpath": "skills/citation-management",
+    "branch": null
+  }
+}

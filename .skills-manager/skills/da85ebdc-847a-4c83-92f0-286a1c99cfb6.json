@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "da85ebdc-847a-4c83-92f0-286a1c99cfb6",
+  "path": "peer-review",
+  "path_key": "peer-review",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "subpath": "skills/peer-review",
+    "branch": null
+  }
+}

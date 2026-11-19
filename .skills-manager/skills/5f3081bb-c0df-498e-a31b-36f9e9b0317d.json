@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5f3081bb-c0df-498e-a31b-36f9e9b0317d",
+  "path": "scientific-critical-thinking",
+  "path_key": "scientific-critical-thinking",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "subpath": "skills/scientific-critical-thinking",
+    "branch": null
+  }
+}

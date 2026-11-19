@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e3ee3329-7dc2-455b-b093-e0d0cde66209",
+  "path": "academic-figure-generator",
+  "path_key": "academic-figure-generator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/ligphidonk/academic-figure-generator",
+    "subpath": "academic-figure-prompt",
+    "branch": null
+  }
+}

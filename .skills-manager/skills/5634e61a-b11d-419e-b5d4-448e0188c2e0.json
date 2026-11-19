@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5634e61a-b11d-419e-b5d4-448e0188c2e0",
+  "path": "ai-avatar-video",
+  "path_key": "ai-avatar-video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "101-skills/superpowers/ai-avatar-video",
+    "subpath": "tools\\video\\ai-avatar-video",
+    "branch": null
+  }
+}

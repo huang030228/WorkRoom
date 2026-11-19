@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1a882884-ee1a-4934-b411-b9068a57ee7b",
+  "path": "ai-video-generation",
+  "path_key": "ai-video-generation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "101-skills/superpowers/ai-video-generation",
+    "subpath": "tools\\video\\ai-video-generation",
+    "branch": null
+  }
+}
